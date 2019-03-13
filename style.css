@@ -129,16 +129,91 @@ body hr {
     /* margin-top: -58px; */
 }
 
+/* Parasyte */
 .banner#parasyte {
-    background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/20623-9SmOjvWUpTsI.jpg');
+    background-image: url('./res/parasyte.jpg');
 }
+
+.banner#parasyte div {
+    background-color: rgb(202, 159, 124);
+}
+
+/* Psycho Pass */
+.banner#psycho-pass {
+    background-image: url('./res/psycho_pass.jpg');
+    background-position: 50% 15%;
+    /* background-size: unset; */
+    background-size: 120%;
+}
+
+.banner#psycho-pass div {
+    background-color: #22A39E;
+}
+
+
+/* Haikyuu */
+.banner#haikyuu {
+    background-image: url('res/haikyuu.jpeg');
+    background-size: 110%;
+    background-position: 50% 40%;
+}
+
+.banner#haikyuu div {
+    background-color: #FB8230;
+}
+
+
+.banner#abyss {
+    background-image: url('./res/abyss.jpg');
+    background-size: 100%;
+    background-position: 50% 30%;
+}
+
+.banner#abyss div {
+    background-color: #cccc00;
+}
+
+
 
 .banner.show-header {
     margin-left: -4rem;
 }
 
 .show-header {
-    background-color: rgb(202, 159, 124);
     color: #2b2b2b;
     /* padding-left: 0.8rem; */
+}
+
+.show-container-short {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    background-color: #c9c9c98e;
+    margin-bottom: 0.6rem;
+    padding-left: 0.4rem;
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 2px 5px 1px #c4c4c4;
+}
+
+.show-thumb img {
+    max-width: 10rem;
+    margin-top: 0.2rem;
+    /* padding-top: 0.4rem; */
+    border-radius: 0.3rem;
+}
+
+.show-pitch {
+    margin-left: 1rem;
+}
+
+.show-pitch h2 {
+    color: #454545;
+    /* margin-top: 0rem; */
+    /* margin-bottom: 0rem; */
+}
+
+.show-blurb hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
